@@ -1,0 +1,5 @@
+pycti==7.260326.0
+stix2
+requests
+urllib3
+pyyaml

@@ -1,0 +1,17 @@
+opencti:
+  url: 'http://opencti:8080'
+  token: 'ChangeMe'
+
+connector:
+  id: 'ChangeMe'
+  type: 'EXTERNAL_IMPORT'
+  name: 'CWE Enrichment from CNA'
+  scope: 'vulnerability'
+  duration_period: 'P1D'
+  log_level: 'info'
+  auto_create_service_account: true
+  auto_create_service_account_confidence_level: 75
+
+cwe_enrich:
+  nvd_api_key: 'ChangeMe'
+  batch_size: 100

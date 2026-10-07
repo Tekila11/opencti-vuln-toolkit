@@ -1,0 +1,17 @@
+opencti:
+  url: 'http://opencti:8080'
+  token: 'ChangeMe'
+
+connector:
+  id: 'ChangeMe'
+  type: 'EXTERNAL_IMPORT'
+  name: 'Kaspersky Asset Connector'
+  scope: 'identity'
+  duration_period: 'P1D'
+  log_level: 'info'
+
+ksc:
+  host: 'ksc.example.local'
+  port: 13299
+  username: 'ChangeMe'
+  password: 'ChangeMe'

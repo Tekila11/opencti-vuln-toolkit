@@ -1,0 +1,18 @@
+opencti:
+  url: 'http://opencti:8080'
+  token: 'ChangeMe'
+
+connector:
+  id: 'ChangeMe'
+  type: 'EXTERNAL_IMPORT'
+  name: 'Forescout Asset Connector'
+  scope: 'identity'
+  duration_period: 'P1D'
+  log_level: 'info'
+
+forescout:
+  host: 'forescout.example.local'
+  username: 'ChangeMe'
+  password: 'ChangeMe'
+  # Set to true when the eyeSight appliance presents a trusted certificate
+  verify_tls: false

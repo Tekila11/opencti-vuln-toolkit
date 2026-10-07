@@ -1,0 +1,17 @@
+opencti:
+  url: 'http://opencti:8080'
+  token: 'ChangeMe'
+
+connector:
+  id: 'ChangeMe'
+  type: 'EXTERNAL_IMPORT'
+  name: 'DGSSI Bulletin Connector'
+  scope: 'report'
+  duration_period: 'PT6H'
+  log_level: 'info'
+  auto_create_service_account: true
+  auto_create_service_account_confidence_level: 80
+
+dgssi_bulletin:
+  confidence: 80
+  report_type: 'Bulletin DGSSI'

@@ -1,0 +1,3 @@
+pycti==7.260326.0
+requests
+stix2
